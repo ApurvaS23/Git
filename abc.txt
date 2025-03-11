@@ -10,3 +10,11 @@ Aggregating Data (COUNT, SUM, AVG, GROUP BY)
 Joining Tables (INNER JOIN, LEFT JOIN, etc.)
 Inserting/Updating/Deleting Data (INSERT, UPDATE, DELETE)
 Creating Tables or Databases (CREATE DATABASE, CREATE TABLE)
+
+1. Subquery in SELECT Clause
+A subquery can be used to return a value in the SELECT clause.
+
+Example: Get the employee name along with the highest salary in the company.
+SELECT name, (SELECT MAX(salary) FROM employees) AS highest_salary
+FROM employees;
+This query will return the name of each employee and the highest salary in the company for each employee (though the result will be the same value for all rows).
