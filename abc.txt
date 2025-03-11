@@ -22,3 +22,6 @@ This query will return the name of each employee and the highest salary in the c
 Git -Basic Git Commands:
 git init
 Initializes a new Git repository in the current directory.
+
+git status
+Shows the current status of the working directory and staging area, including changes that are staged, modified, or untracked.
