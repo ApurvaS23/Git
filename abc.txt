@@ -25,3 +25,6 @@ Initializes a new Git repository in the current directory.
 
 git status
 Shows the current status of the working directory and staging area, including changes that are staged, modified, or untracked.
+
+git commit -m "message"
+Commits the staged changes with a commit message.
