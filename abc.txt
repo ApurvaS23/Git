@@ -4,3 +4,9 @@ Lets learn some concepts of machine learning.
 Linear Regression 
 Logistic Regression 
 "Power BI" and "MySQL Queries"
+SQL Queries -->>
+Basic Queries (SELECT, WHERE, ORDER BY)
+Aggregating Data (COUNT, SUM, AVG, GROUP BY)
+Joining Tables (INNER JOIN, LEFT JOIN, etc.)
+Inserting/Updating/Deleting Data (INSERT, UPDATE, DELETE)
+Creating Tables or Databases (CREATE DATABASE, CREATE TABLE)
