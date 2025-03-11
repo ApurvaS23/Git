@@ -18,3 +18,7 @@ Example: Get the employee name along with the highest salary in the company.
 SELECT name, (SELECT MAX(salary) FROM employees) AS highest_salary
 FROM employees;
 This query will return the name of each employee and the highest salary in the company for each employee (though the result will be the same value for all rows).
+
+Git -Basic Git Commands:
+git init
+Initializes a new Git repository in the current directory.
