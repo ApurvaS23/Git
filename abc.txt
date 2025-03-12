@@ -28,3 +28,5 @@ Shows the current status of the working directory and staging area, including ch
 
 git commit -m "message"
 Commits the staged changes with a commit message.
+
+git init 
